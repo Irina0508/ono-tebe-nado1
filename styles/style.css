@@ -68,7 +68,7 @@ header {
 }
 
 /* header-contacts*/
-.address {
+.address-top {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -82,8 +82,7 @@ header {
     height: 97px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* cover */
@@ -316,7 +315,7 @@ header {
     margin-bottom: 90px;
 }
 
-.footer-contacts {
+.address-bottom {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -325,7 +324,7 @@ header {
     font-size: 18px;
 }
 
-.footer-contacts > div {
+.address-bottom > div {
     width: 240px;
     height: 97px;
     display: flex;
